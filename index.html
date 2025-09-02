@@ -1,8 +1,8 @@
 <body>
-    <h1>Cena 2k25</h1>
+    <h1 class="titulo-principal">Cena 2k25</h1>
     <hr>
 
-    <h4>Bem Vindo ao Cena</h4>
+    <h1 class="titulo-secundario">Bem Vindo ao Cena</h1>
     <br>
     <hr>
     <br>
@@ -10,19 +10,18 @@
     <p>O Festival CENA 2K é uma celebração dinâmica da cultura urbana brasileira, com 
         foco no rap, trap e hip-hop. Lançado em 2019, o evento reúne grandes nomes nacionais e internacionais da cena 
         — como Don Toliver, Sheck Wes, Playboi Carti, Djonga, Tasha & Tracie e outros — 
-        criando uma plataforma poderosa para expressão artística, moda, arte e estilo de vida
+        criando uma plataforma poderosa para expressão artística, moda, arte e estilo de vida.
     </p>
 
     <h2>Onde Sera o CENA?</h2>
-    <br>
     <br>
     <p>O CENA 2K25 está agendado para os dias 28, 29 e 30 de novembro de 2025, na Neo Química Arena, em São Paulo.</p>
 
 
     <h3>Segue o Video breve em explicação do CENA</h3>
-
+    <div class="container">
     <a href="https://www.youtube.com/watch?v=Hr4q8C0WnXw&list=RDHr4q8C0WnXw&start_radio=1" class="btn"> Entrada do veigh</a>
-
+    </div>   
 </body>
 
 
@@ -32,19 +31,24 @@
         body{background-color: black;
         }
         
-        h1:first{color:red;
-            font-size: 5px;
+        .titulo-principal{color:red;
             text-align: center;
             font-family: sans-serif;
+            margin: 20px;  
+            padding: 10px;
+        
+        
         }
 
         hr{border: 2px solid red;
             width: 50%;
         }
         
-        h4{color:red;
+        .titulo-secundario{color:red;
             text-align: center;
             font-family: sans-serif;
+            margin-top: 20px;
+            padding: 10px;
         }   
 
        
@@ -58,7 +62,7 @@
             font:arial;
             margin-left: 20px;
             margin-right: 20px;
-            font-size: 15px;
+            font-size: 25px;
         }
 
         h3{color:red;
@@ -66,7 +70,7 @@
         }
     
         .btn {display: inline-block;
-                background: red;
+                background: blue;
                 color: white;
                 padding: 10px 20px;
                 text-decoration: none;
@@ -78,6 +82,12 @@
         .btn:hover {background: red;
         }
 
+
+        .container {display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 25vh;
+}
 
     </style>
 </head>
